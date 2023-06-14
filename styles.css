@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #093085;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    max-width: 320px;
+    background-color: white;
+    border-radius: 13px;
+    
+}
+
+
+button:hover{
+    background-color: rgba(79, 94, 94, 0.479);
+    color: white;
+}
+
+.name{
+    color: rgba(8, 6, 109, 0.973);
+    padding-left: 20px;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+#question{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #00184df8;
+    font-size: 21px;
+    font-weight: 600;
+}
+.btn{
+  color: #222;
+  background-color: rgba(116, 116, 116, 0.014);
+  width: 100%;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition-duration: 0.3s;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-right: none;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: "Times New Roman";
+  border-radius: 7px;
+}
+#answer-btns{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#next-btn{
+    color: white;
+    background-color: #0a3ba7;
+    margin-bottom: 20px;
+    width: 30%;
+    font-size: 20px;
+    font-family: Tahoma;
+    margin-left: 18px;
+    text-align: left;
+    border: 1px solid rgb(10, 10, 88);
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: none;
+}
+#next-btn:hover{
+    background-color: #7280fffb ;
+    color: #fdfdfd;
+}
+.correct{
+    background-color: rgba(0, 128, 0, 0.486);
+    color: white;
+}
+.incorrect{
+    background-color: rgba(255, 0, 0, 0.514);
+}
+#span{
+    font-size: 10px;
+    margin-left: 70px;
+    color: #222;
+    font-family: 'Nunito', sans-serif;
+}
